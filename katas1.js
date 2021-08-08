@@ -18,7 +18,6 @@ function evensToTwenty() {
 }
 evensToTwenty()
 
-//call function evensToTwenty
 
 function oddsToTwenty() {
   let meuRetorno = []
