@@ -79,17 +79,16 @@ console.log(evenNumbersBackwards())
 
 function oddNumbersBackwards() {
   let meuRetorno = []
-  let calculo
+  let calculo = 0
     for(let i = 20; i >= 1; i--){
       if(i % 2 === 1){
         calculo = i 
+        meuRetorno.push(calculo)
       }
-      meuRetorno.push(calculo)
-
     }
     return meuRetorno
 }
-
+//AQUI TA O ERRO 
 oddNumbersBackwards ()
 console.log(oddNumbersBackwards())
 
